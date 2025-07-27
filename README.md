@@ -1,12 +1,24 @@
-# React + Vite
+Thinkify - Your Personal AI Tutor
+Thinkify is a modern web application designed to transform how students approach learning. Instead of providing direct answers, Thinkify acts as a Socratic AI tutor, guiding students through complex problems with step-by-step hints. This method fosters critical thinking and builds real problem-solving skills, helping students master concepts without the temptation of shortcuts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Key Features
+Socratic AI Tutor: An interactive chat interface where students receive guiding questions and hints, not direct solutions.
 
-Currently, two official plugins are available:
+Course-Specific Problem Banks: Organized sections for different subjects like Data Structures & Algorithms (DSA), Web Application Programming (WAP), and Mathematics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Interactive Workspace: A dedicated three-panel layout for each problem, featuring the problem statement, the AI chat, and a code/solution editor.
 
-## Expanding the ESLint configuration
+User Authentication: Secure login and signup functionality to track user progress.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Design: A clean, modern, and fully responsive UI that works seamlessly across desktop and mobile devices.
+
+🛠️ Tech Stack
+Frontend: React.js
+
+Routing: React Router DOM
+
+Styling: Tailwind CSS
+
+UI Components: shadcn/ui
+
+State Management: React Context API & Hooks
