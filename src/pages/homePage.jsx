@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { Button } from "../components/UI/Button"; // Assuming this is a custom styled component
+import { Button } from "../components/ui/button"
 
 const HomePage = () => {
   return (
